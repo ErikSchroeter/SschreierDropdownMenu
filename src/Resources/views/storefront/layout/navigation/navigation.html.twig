@@ -17,7 +17,7 @@
         {% elseif activeViewportsDropdownStickyMenuString == "xl" %}
             {% set notActiveViewportsDropdownStickyMenuString = "'XS', 'SM', 'MD', 'LG'" %}
         {% elseif activeViewportsDropdownStickyMenuString == "" %}
-            {% set notActiveViewportsDropdownStickyMenuString = "'XS', 'SM', 'MD', 'LG', 'XL'" %}    
+            {% set notActiveViewportsDropdownStickyMenuString = "'XS', 'SM', 'MD', 'LG', 'XL'" %}
         {% endif %}
 
         {% block layout_main_navigation_dropdownmenu_stickymenu_inner_before %}{% endblock %}
@@ -55,7 +55,7 @@
                 itemprop="url"
                 title="{{ homeLabel|striptags }}">
                 <div class="main-navigation-link-text">
-                    <span class="icon-home-container">{% sw_icon 'home' %}</span>
+                    <i class="fas fa-home icon-home-container"></i>
                 </div>
             </a>
         {% else %}
